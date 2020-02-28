@@ -1,0 +1,254 @@
+PODS:
+  - amap_core_fluttify (0.0.1):
+    - Flutter
+    - foundation_fluttify
+  - amap_location_fluttify (0.0.1):
+    - amap_core_fluttify
+    - Flutter
+    - foundation_fluttify
+  - camera (0.0.1):
+    - Flutter
+  - city_pickers (0.0.1):
+    - Flutter
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_ijkplayer (0.0.1):
+    - Flutter
+    - FlutterIJK (~> 0.1.0)
+  - FlutterIJK (0.1.0)
+  - fluwx (0.0.1):
+    - Flutter
+  - foundation_fluttify (0.0.1):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+  - image_picker_saver (0.0.1):
+    - Flutter
+  - janalytics (0.0.1):
+    - Flutter
+    - JAnalytics
+  - JAnalytics (2.1.0):
+    - JCore (< 3.0.0, >= 1.2.0)
+  - JCore (2.1.4-noidfa)
+  - JMessage (3.9.1):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jmessage_flutter (0.0.1):
+    - Flutter
+    - JMessage
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JPush
+  - JVerification (2.5.0):
+    - JCore (< 3.0.0, >= 1.2.6)
+  - jverify (0.0.1):
+    - Flutter
+    - JCore (= 2.1.4-noidfa)
+    - JVerification (= 2.5.0)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - permission_handler (3.3.0):
+    - Flutter
+  - photo_manager (0.0.1):
+    - Flutter
+  - QCloudCore (5.6.6):
+    - QCloudCore/Default (= 5.6.6)
+  - QCloudCore/Default (5.6.6)
+  - QCloudCOSXML (5.6.6):
+    - QCloudCOSXML/Default (= 5.6.6)
+  - QCloudCOSXML/Default (5.6.6):
+    - QCloudCore (= 5.6.6)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - shared_preferences_macos (0.0.1):
+    - Flutter
+  - shared_preferences_web (0.0.1):
+    - Flutter
+  - tencent_cos (0.0.1):
+    - Flutter
+    - QCloudCOSXML
+  - thumbnails (0.0.1):
+    - Flutter
+  - UMCCommon (2.1.1)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.6):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - umengshare (0.0.1):
+    - Flutter
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+  - url_launcher (0.0.1):
+    - Flutter
+  - url_launcher_macos (0.0.1):
+    - Flutter
+  - url_launcher_web (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - amap_core_fluttify (from `.symlinks/plugins/amap_core_fluttify/ios`)
+  - amap_location_fluttify (from `.symlinks/plugins/amap_location_fluttify/ios`)
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - city_pickers (from `.symlinks/plugins/city_pickers/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_ijkplayer (from `.symlinks/plugins/flutter_ijkplayer/ios`)
+  - fluwx (from `.symlinks/plugins/fluwx/ios`)
+  - foundation_fluttify (from `.symlinks/plugins/foundation_fluttify/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - image_picker_saver (from `.symlinks/plugins/image_picker_saver/ios`)
+  - janalytics (from `.symlinks/plugins/janalytics/ios`)
+  - jmessage_flutter (from `.symlinks/plugins/jmessage_flutter/ios`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - jverify (from `.symlinks/plugins/jverify/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
+  - shared_preferences_web (from `.symlinks/plugins/shared_preferences_web/ios`)
+  - tencent_cos (from `.symlinks/plugins/tencent_cos/ios`)
+  - thumbnails (from `.symlinks/plugins/thumbnails/ios`)
+  - umengshare (from `.symlinks/plugins/umengshare/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - url_launcher_macos (from `.symlinks/plugins/url_launcher_macos/ios`)
+  - url_launcher_web (from `.symlinks/plugins/url_launcher_web/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FlutterIJK
+    - JAnalytics
+    - JCore
+    - JMessage
+    - JPush
+    - JVerification
+    - QCloudCore
+    - QCloudCOSXML
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare
+
+EXTERNAL SOURCES:
+  amap_core_fluttify:
+    :path: ".symlinks/plugins/amap_core_fluttify/ios"
+  amap_location_fluttify:
+    :path: ".symlinks/plugins/amap_location_fluttify/ios"
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  city_pickers:
+    :path: ".symlinks/plugins/city_pickers/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: Flutter
+  flutter_ijkplayer:
+    :path: ".symlinks/plugins/flutter_ijkplayer/ios"
+  fluwx:
+    :path: ".symlinks/plugins/fluwx/ios"
+  foundation_fluttify:
+    :path: ".symlinks/plugins/foundation_fluttify/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  image_picker_saver:
+    :path: ".symlinks/plugins/image_picker_saver/ios"
+  janalytics:
+    :path: ".symlinks/plugins/janalytics/ios"
+  jmessage_flutter:
+    :path: ".symlinks/plugins/jmessage_flutter/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  jverify:
+    :path: ".symlinks/plugins/jverify/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  shared_preferences_macos:
+    :path: ".symlinks/plugins/shared_preferences_macos/ios"
+  shared_preferences_web:
+    :path: ".symlinks/plugins/shared_preferences_web/ios"
+  tencent_cos:
+    :path: ".symlinks/plugins/tencent_cos/ios"
+  thumbnails:
+    :path: ".symlinks/plugins/thumbnails/ios"
+  umengshare:
+    :path: ".symlinks/plugins/umengshare/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  url_launcher_macos:
+    :path: ".symlinks/plugins/url_launcher_macos/ios"
+  url_launcher_web:
+    :path: ".symlinks/plugins/url_launcher_web/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  amap_core_fluttify: 87aa2ec0622c7fd8569441fc091a3318359ff7e8
+  amap_location_fluttify: 4be313d9388b3cf0607f719c620bde693d38439f
+  camera: 38cc83ae9a5667bb5a71c7d9edaf60a91920fd4e
+  city_pickers: b0370f4c35c201723b5b7fcce10ec29b59d5bc35
+  device_info: cbf09d2ec12aa7110e0b09fabe54b5bd6c8efe74
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_ijkplayer: ef9006131553deb6d8ae6d7fbd3bcbf93b135930
+  FlutterIJK: 68b00c1d11162b5016f3611853aa699e198bd1d2
+  fluwx: 765c6052398eaf6fe13c73409488b0d0b9d00fd6
+  foundation_fluttify: 3038fcc96aabb59c77f595964954c118af535d57
+  image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
+  image_picker_saver: 4f28bd70e1efdca68ad88beab0f11d22cffe04f6
+  JAnalytics: 3ae37a36b02cd06543c4d5a008a37470f577ec50
+  janalytics: 7d0b5205a066d542772d544ce560e4490caaf510
+  JCore: 2f15311e6889ab43ed5d629802ef793cac566465
+  JMessage: 43dfcd5348573b2f4f24357b12e9b19076322606
+  jmessage_flutter: eb7c42cb2444efae6aa14c2083dc84929ca3c80a
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  jpush_flutter: d7e3a79466eb9447fd940233f02661b514f137c6
+  JVerification: e51834e1c7f0f1b6b911987234a57bf80b9eeff8
+  jverify: 8a4261f246cf320f412d4f8fa8f7b3b2cb134dc9
+  package_info: 48b108e75b8802c2d5e126f208ef540561c98aef
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+  permission_handler: 67637977b227d62d46bfbf524f335f8568de5a73
+  photo_manager: 47ca9adddeea702246c96c6f67769f03907cd953
+  QCloudCore: 57cb8830b0f7adbd99f7467d23cf42a88257ac63
+  QCloudCOSXML: 5589f274de85f2073b69a786c9eef9080009cd3b
+  shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
+  shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
+  shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
+  tencent_cos: e9f00a02054d13f1ef93e79b59ae28ca3c08e892
+  thumbnails: bb4f4e9bb4b51c8ae4e6ad9a2fa81373f9b634ad
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: e0cef55c0fd6051254c8cda1d0630eb578b27bad
+  umengshare: e4059463956e0d417822a7aae9a8fdd22874517c
+  url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
+  url_launcher_macos: fd7894421cd39320dce5f292fc99ea9270b2a313
+  url_launcher_web: e5527357f037c87560776e36436bf2b0288b965c
+  webview_flutter: db3aba222b23e4dc432e0c5882834123dc50ff9f
+
+PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
+
+COCOAPODS: 1.7.4

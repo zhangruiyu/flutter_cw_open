@@ -1,0 +1,1614 @@
+{
+  "seatData": {
+    "cinema": {
+      "cinemaId": 264,
+      "cinemaName": "万达影城（CBD店）"
+    },
+    "hall": {
+      "hallId": 89938,
+      "hallName": "6号厅ScreenX"
+    },
+    "movie": {
+      "movieId": 1250690,
+      "movieName": "受益人"
+    },
+    "price": {
+      "1": {
+        "seatsPrice": {
+          "1": {
+            "desc": [
+              {
+                "activity": "",
+                "price": "54"
+              }
+            ],
+            "totalPrice": "54"
+          },
+          "2": {
+            "desc": [
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              }
+            ],
+            "totalPrice": "108"
+          },
+          "3": {
+            "desc": [
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              }
+            ],
+            "totalPrice": "162"
+          },
+          "4": {
+            "desc": [
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              }
+            ],
+            "totalPrice": "216"
+          },
+          "5": {
+            "desc": [
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              }
+            ],
+            "totalPrice": "270"
+          },
+          "6": {
+            "desc": [
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              },
+              {
+                "activity": "",
+                "price": "54"
+              }
+            ],
+            "totalPrice": "324"
+          }
+        },
+        "seatsPriceDetail": {
+          "1": {
+            "detail": [
+              {
+                "desc": [],
+                "price": "54"
+              }
+            ],
+            "display": false,
+            "originPrice": "54"
+          },
+          "2": {
+            "detail": [
+              {
+                "desc": [],
+                "price": "54"
+              }
+            ],
+            "display": false,
+            "originPrice": "54"
+          },
+          "3": {
+            "detail": [
+              {
+                "desc": [],
+                "price": "54"
+              }
+            ],
+            "display": false,
+            "originPrice": "54"
+          },
+          "4": {
+            "detail": [
+              {
+                "desc": [],
+                "price": "54"
+              }
+            ],
+            "display": false,
+            "originPrice": "54"
+          },
+          "5": {
+            "detail": [
+              {
+                "desc": [],
+                "price": "54"
+              }
+            ],
+            "display": false,
+            "originPrice": "54"
+          },
+          "6": {
+            "detail": [
+              {
+                "desc": [],
+                "price": "54"
+              }
+            ],
+            "display": false,
+            "originPrice": "54"
+          }
+        }
+      }
+    },
+    "reminder": {
+      "defaultReminder": "您选的是{明天 11月8日}的场次，请仔细核对哦",
+      "notice": [],
+      "popUpReminder": ""
+    },
+    "seat": {
+      "image": {
+        "adReport": null,
+        "displayAd": false,
+        "doIconRain": false,
+        "iconRainTriggerMillis": 1000,
+        "iconRains": {
+          "1": "http://p0.meituan.net/moviemachine/035839fff8be031ad4b62eed304679be212491.png",
+          "2": "http://p0.meituan.net/moviemachine/4b335e4757f4f8a749a1de4b1ee7243a216478.png",
+          "3": "http://p0.meituan.net/moviemachine/d160a1b196b44e1fcb3ecdc761a3dabb212080.png"
+        },
+        "seatLegends": [
+          {
+            "legendIcon": "http://p1.meituan.net/movie/9dfff6fd525a7119d44e5734ab0e9fb41244.png",
+            "legendName": "可选"
+          },
+          {
+            "legendIcon": "http://p1.meituan.net/movie/bdb0531259ae1188b9398520f9692cbd1249.png",
+            "legendName": "不可选"
+          },
+          {
+            "legendIcon": "http://p0.meituan.net/movie/585588bd86828ed54eed828dcb89bfdd1401.png",
+            "legendName": "已选"
+          }
+        ],
+        "selectSeatImages": [],
+        "selectedImages": [],
+        "soldImages": []
+      },
+      "lastSelectedSeat": {
+        "selectedRegionId": "",
+        "selectedSeatType": "",
+        "selectedSeats": ""
+      },
+      "recommendation": {
+        "bestRecommendation": {
+          "bestFive": {
+            "seatDesc": {
+              "img": "http://p0.meituan.net/movie/4d5558c36804180ca9a2355c2f16d2b05701957.png",
+              "remind": "赚到了，最受欢迎的位置！"
+            },
+            "seats": [
+              {
+                "columnId": "8",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "7",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "6",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "5",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "4",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              }
+            ]
+          },
+          "bestFour": {
+            "seatDesc": {
+              "img": "http://p0.meituan.net/movie/4d5558c36804180ca9a2355c2f16d2b05701957.png",
+              "remind": "赚到了，最受欢迎的位置！"
+            },
+            "seats": [
+              {
+                "columnId": "7",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "6",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "5",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "4",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              }
+            ]
+          },
+          "bestOne": {
+            "seatDesc": {
+              "img": "http://p0.meituan.net/movie/4d5558c36804180ca9a2355c2f16d2b05701957.png",
+              "remind": "赚到了，最受欢迎的位置！"
+            },
+            "seats": [
+              {
+                "columnId": "6",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              }
+            ]
+          },
+          "bestThree": {
+            "seatDesc": {
+              "img": "http://p0.meituan.net/movie/4d5558c36804180ca9a2355c2f16d2b05701957.png",
+              "remind": "赚到了，最受欢迎的位置！"
+            },
+            "seats": [
+              {
+                "columnId": "7",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "6",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "5",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              }
+            ]
+          },
+          "bestTwo": {
+            "seatDesc": {
+              "img": "http://p0.meituan.net/movie/4d5558c36804180ca9a2355c2f16d2b05701957.png",
+              "remind": "赚到了，最受欢迎的位置！"
+            },
+            "seats": [
+              {
+                "columnId": "6",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              },
+              {
+                "columnId": "5",
+                "rowId": "5",
+                "rowNum": 5,
+                "sectionId": "1"
+              }
+            ]
+          }
+        },
+        "isShowRecommendation": 1
+      },
+      "regions": [
+        {
+          "columnSize": 18,
+          "regionId": "1",
+          "regionName": "普通区",
+          "rowSize": 8,
+          "rows": [
+            {
+              "rowId": "1",
+              "rowNum": 1,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "1",
+                  "seatNo": "1-1-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "1",
+                  "seatNo": "1-1-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "1",
+                  "seatNo": "1-1-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "1",
+                  "seatNo": "1-1-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "1",
+                  "seatNo": "1-1-6",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "1",
+                  "seatNo": "1-1-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "1",
+                  "seatNo": "1-1-4",
+                  "seatStatus": 4,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "1",
+                  "seatNo": "1-1-3",
+                  "seatStatus": 4,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "1",
+                  "seatNo": "1-1-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "1",
+                  "seatNo": "1-1-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "1",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "2",
+              "rowNum": 2,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "2",
+                  "seatNo": "1-2-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "2",
+                  "seatNo": "1-2-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "2",
+                  "seatNo": "1-2-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "2",
+                  "seatNo": "1-2-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "2",
+                  "seatNo": "1-2-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "2",
+                  "seatNo": "1-2-6",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "2",
+                  "seatNo": "1-2-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "2",
+                  "seatNo": "1-2-4",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "2",
+                  "seatNo": "1-2-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "2",
+                  "seatNo": "1-2-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "2",
+                  "seatNo": "1-2-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "2",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "3",
+              "rowNum": 3,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "3",
+                  "seatNo": "1-3-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "3",
+                  "seatNo": "1-3-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "3",
+                  "seatNo": "1-3-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "3",
+                  "seatNo": "1-3-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "3",
+                  "seatNo": "1-3-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "3",
+                  "seatNo": "1-3-6",
+                  "seatStatus": 3,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "3",
+                  "seatNo": "1-3-5",
+                  "seatStatus": 3,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "3",
+                  "seatNo": "1-3-4",
+                  "seatStatus": 3,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "3",
+                  "seatNo": "1-3-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "3",
+                  "seatNo": "1-3-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "3",
+                  "seatNo": "1-3-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "3",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "4",
+              "rowNum": 4,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "4",
+                  "seatNo": "1-4-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "4",
+                  "seatNo": "1-4-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "4",
+                  "seatNo": "1-4-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "4",
+                  "seatNo": "1-4-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "4",
+                  "seatNo": "1-4-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "4",
+                  "seatNo": "1-4-6",
+                  "seatStatus": 3,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "4",
+                  "seatNo": "1-4-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "4",
+                  "seatNo": "1-4-4",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "4",
+                  "seatNo": "1-4-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "4",
+                  "seatNo": "1-4-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "4",
+                  "seatNo": "1-4-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "4",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "5",
+              "rowNum": 5,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "5",
+                  "seatNo": "1-5-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "5",
+                  "seatNo": "1-5-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "5",
+                  "seatNo": "1-5-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "5",
+                  "seatNo": "1-5-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "5",
+                  "seatNo": "1-5-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "5",
+                  "seatNo": "1-5-6",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "5",
+                  "seatNo": "1-5-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "5",
+                  "seatNo": "1-5-4",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "5",
+                  "seatNo": "1-5-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "5",
+                  "seatNo": "1-5-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "5",
+                  "seatNo": "1-5-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "5",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "6",
+              "rowNum": 6,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "6",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "6",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "6",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "13",
+                  "rowId": "6",
+                  "seatNo": "1-6-13",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "12",
+                  "rowId": "6",
+                  "seatNo": "1-6-12",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "6",
+                  "seatNo": "1-6-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "6",
+                  "seatNo": "1-6-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "6",
+                  "seatNo": "1-6-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "6",
+                  "seatNo": "1-6-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "6",
+                  "seatNo": "1-6-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "6",
+                  "seatNo": "1-6-6",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "6",
+                  "seatNo": "1-6-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "6",
+                  "seatNo": "1-6-4",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "6",
+                  "seatNo": "1-6-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "6",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "6",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "6",
+                  "seatNo": "1-6-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "6",
+                  "seatNo": "1-6-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "7",
+              "rowNum": 7,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "7",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "7",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "7",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "13",
+                  "rowId": "7",
+                  "seatNo": "1-7-13",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "12",
+                  "rowId": "7",
+                  "seatNo": "1-7-12",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "7",
+                  "seatNo": "1-7-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "7",
+                  "seatNo": "1-7-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "7",
+                  "seatNo": "1-7-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "7",
+                  "seatNo": "1-7-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "7",
+                  "seatNo": "1-7-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "7",
+                  "seatNo": "1-7-6",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "7",
+                  "seatNo": "1-7-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "7",
+                  "seatNo": "1-7-4",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "7",
+                  "seatNo": "1-7-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "7",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "",
+                  "rowId": "7",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "7",
+                  "seatNo": "1-7-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "7",
+                  "seatNo": "1-7-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                }
+              ]
+            },
+            {
+              "rowId": "8",
+              "rowNum": 8,
+              "seats": [
+                {
+                  "columnId": "",
+                  "rowId": "8",
+                  "seatNo": "",
+                  "seatStatus": 0,
+                  "seatType": "",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "17",
+                  "rowId": "8",
+                  "seatNo": "1-8-17",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "16",
+                  "rowId": "8",
+                  "seatNo": "1-8-16",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "15",
+                  "rowId": "8",
+                  "seatNo": "1-8-15",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "14",
+                  "rowId": "8",
+                  "seatNo": "1-8-14",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "13",
+                  "rowId": "8",
+                  "seatNo": "1-8-13",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "12",
+                  "rowId": "8",
+                  "seatNo": "1-8-12",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "11",
+                  "rowId": "8",
+                  "seatNo": "1-8-11",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "10",
+                  "rowId": "8",
+                  "seatNo": "1-8-10",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "9",
+                  "rowId": "8",
+                  "seatNo": "1-8-9",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "8",
+                  "rowId": "8",
+                  "seatNo": "1-8-8",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "7",
+                  "rowId": "8",
+                  "seatNo": "1-8-7",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "6",
+                  "rowId": "8",
+                  "seatNo": "1-8-6",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "5",
+                  "rowId": "8",
+                  "seatNo": "1-8-5",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "4",
+                  "rowId": "8",
+                  "seatNo": "1-8-4",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "3",
+                  "rowId": "8",
+                  "seatNo": "1-8-3",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "2",
+                  "rowId": "8",
+                  "seatNo": "1-8-2",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                },
+                {
+                  "columnId": "1",
+                  "rowId": "8",
+                  "seatNo": "1-8-1",
+                  "seatStatus": 1,
+                  "seatType": "N",
+                  "sectionId": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "section": {
+        "1": {
+          "index": 1,
+          "sectionActivity": "",
+          "sectionIcon": "http://p0.meituan.net/movie/749e0c80173858e030e323798b7f6325405.png",
+          "sectionLoverImage": "http://p1.meituan.net/movie/c76844b360d247a7d484336078e6b667692.png",
+          "sectionName": "普通区",
+          "sectionNormalImage": "http://p0.meituan.net/movie/29e5bc58f549052c599f79262946ea5b425.png",
+          "sectionPrice": ""
+        }
+      }
+    },
+    "shareSeat": true,
+    "show": {
+      "adReport": null,
+      "buyNumLimit": 6,
+      "dim": "2D",
+      "lang": "国语",
+      "langWarn": 0,
+      "seqNo": "201911080282604",
+      "showDate": "2019-11-08",
+      "showId": 282604,
+      "showTime": "11:55",
+      "watermark": "http://p1.meituan.net/w.h/movie/862c8230b74fbf029211c2b78f375dd45161.png"
+    },
+    "user": {
+      "mobileSourceType": 0,
+      "userPhone": ""
+    },
+    "token": "ViM084xnhuC0HXeNOOwDNA7kMPgAAAAAagkAAGOor4PwVoi8NHXI8m-gKKUiwCF8-RDHbjhK2xpXDh8yTH5NNt_AC8rFuBxl9_T2gQ",
+    "utm_content": "",
+    "mobile": "152****1801"
+  }
+}

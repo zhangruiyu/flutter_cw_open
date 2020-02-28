@@ -1,0 +1,144 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+def keystorePropertiesFile = rootProject.file("key.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    compileSdkVersion 29
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    defaultConfig {
+        applicationId "com.chongmeng.chongmeng"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+      /*  ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi-v7a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+*/
+        manifestPlaceholders = [
+                //小米 魅族 华为已改
+                JPUSH_PKGNAME : "com.chongmeng.chongmeng",
+                JPUSH_APPKEY : "", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                // 设置manifest.xml中的变量
+                HUAWEI_APPID : "", // 华为平台注册的appid
+                // 设置manifest.xml中的变量
+                XIAOMI_APPKEY : "", // 小米平台注册的appkey
+                XIAOMI_APPID : "", // 小米平台注册的appid
+                MEIZU_APPKEY:"",//魅族平台注册的appkey
+                MEIZU_APPID:"",//魅族平台注册的appid
+                // 设置manifest.xml中的变量
+                OPPO_APPKEY : "OP-您的应用对应的OPPO的APPKEY", // OPPO平台注册的appkey
+                OPPO_APPID : "OP-您的应用对应的OPPO的APPID", // OPPO平台注册的appid
+                OPPO_APPSECRET: "OP-您的应用对应的OPPO的APPSECRET", //OPPO平台注册的appsecret
+                // 设置manifest.xml中的变量
+                VIVO_APPKEY : "您的应用对应的VIVO的APPKEY", // VIVO平台注册的appkey
+                VIVO_APPID : "您的应用对应的VIVO的APPID", // VIVO平台注册的appid
+                MTA_APPKEY:"A15DAY5WE1VW",
+
+                MTA_CHANNEL:"MY CHANNEL"
+
+
+        ]
+    }
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    aaptOptions {
+        ignoreAssetsPattern "!x86:!*ffprobe"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+        }
+        debug{
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    buildToolsVersion = '28.0.3'
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'cn.jiguang.sdk.plugin:huawei:3.3.4'//和对应JPush版本相同
+    implementation 'cn.jiguang.sdk.plugin:xiaomi:3.3.4'//此版本插件仅支持JPushSDK3.2.0及以上版本
+    implementation'cn.jiguang.sdk.plugin:meizu:3.3.4'//此版本插件仅支持JPushSDK3.2.0及以上版本
+    implementation 'cn.jiguang.sdk.plugin:oppo:3.3.4'
+    implementation 'cn.jiguang.sdk.plugin:oppo:3.3.4'
+    implementation 'cn.jiguang.sdk.plugin:vivo:3.3.4'
+    implementation 'com.king.app:app-updater:1.0.6-androidx'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+rootProject.allprojects {
+    subprojects {
+        project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'androidx.core' && !details.requested.name.contains('androidx')) {
+                    details.useVersion "1.0.1"
+                }
+                if (details.requested.group == 'com.github.bumptech.glide'
+                        && details.requested.name.contains('glide')) {
+                    details.useVersion "4.8.0"
+                }
+            }
+        }
+    }
+}
